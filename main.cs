@@ -9,19 +9,19 @@ class Program
     public static void Main(string[] args)
     {
         //input
-        int VerticalRadius;
-        int HorizontalRadius;
+        int verticalRadius;
+        int horizontalRadius;
 
         Console.WriteLine("This program finds the area of an ellipse with two radiuses.");
         Console.WriteLine("");
 
         Console.Write("Enter the horizontal radius(cm): ");
-        HorizontalRadius = Convert.ToInt32(Console.ReadLine());
+        horizontalRadius = Convert.ToInt32(Console.ReadLine());
         Console.Write("Enter the vertical radius(cm): ");
-        VerticalRadius = Convert.ToInt32(Console.ReadLine());
+        verticalRadius = Convert.ToInt32(Console.ReadLine());
 
         //process
-        double area = (VerticalRadius * HorizontalRadius) * Math.PI;
+        double area = (verticalRadius * horizontalRadius) * Math.PI;
 
         //output
         Console.WriteLine("");
